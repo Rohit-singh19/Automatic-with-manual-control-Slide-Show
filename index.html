@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide show</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slideshow-container">
+        <img src="Images/lucifer.jpg" alt="" class="slideshow">
+        <img src="Images/Moneyheist.jpg" alt="" class="slideshow">
+        <img src="Images/the witcher.png" alt="" class="slideshow">
+        <img src="Images/Vikings.png" alt="" class="slideshow">
+    </div>
+
+    <span id="left-arrow">&#8249</span>
+    <span id="right-arrow">&#8250</span>
+
+    <div class="slideshowPointer">
+        <span class="circle" onclick="circleIndex(0)"></span>
+        <span class="circle" onclick="circleIndex(1)"></span>
+        <span class="circle" onclick="circleIndex(2)"></span>
+        <span class="circle" onclick="circleIndex(3)"></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
