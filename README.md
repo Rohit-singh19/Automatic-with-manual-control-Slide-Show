@@ -1,0 +1,1 @@
+# Automatic-with-manual-control-Slide-Show
